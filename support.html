@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support - Mindute AI</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+        color: #ffffff;
+        min-height: 100vh;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .logo {
+        font-size: 48px;
+        margin-bottom: 16px;
+      }
+
+      h1 {
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 12px;
+        letter-spacing: -0.5px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+        color: #a1a1aa;
+        font-weight: 400;
+      }
+
+      .highlight {
+        color: #10b981;
+      }
+
+      .section {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        padding: 32px;
+        margin-bottom: 24px;
+        backdrop-filter: blur(10px);
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #ffffff;
+      }
+
+      .contact-methods {
+        display: grid;
+        gap: 16px;
+      }
+
+      .contact-card {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 20px;
+        transition: all 0.3s ease;
+      }
+
+      .contact-card:hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: #10b981;
+        transform: translateY(-2px);
+      }
+
+      .contact-card h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #10b981;
+      }
+
+      .contact-card p {
+        color: #a1a1aa;
+        font-size: 15px;
+      }
+
+      .contact-card a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      .contact-card a:hover {
+        text-decoration: underline;
+      }
+
+      .faq-item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 20px 0;
+      }
+
+      .faq-item:last-child {
+        border-bottom: none;
+      }
+
+      .faq-item h3 {
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #ffffff;
+      }
+
+      .faq-item p {
+        color: #a1a1aa;
+        font-size: 15px;
+        line-height: 1.7;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 16px;
+      }
+
+      .link-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid #10b981;
+        border-radius: 8px;
+        color: #10b981;
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+
+      .link-btn:hover {
+        background: rgba(16, 185, 129, 0.2);
+        transform: translateY(-2px);
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 40px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        color: #71717a;
+        font-size: 14px;
+      }
+
+      footer a {
+        color: #10b981;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 32px;
+        }
+
+        .subtitle {
+          font-size: 16px;
+        }
+
+        .section {
+          padding: 24px;
+        }
+
+        .container {
+          padding: 24px 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">🤖</div>
+        <h1>Mindute AI <span class="highlight">Support</span></h1>
+        <p class="subtitle">
+          We're here to help. Get in touch or browse our FAQs below.
+        </p>
+      </header>
+
+      <!-- Contact Section -->
+      <div class="section">
+        <h2>📬 Contact Us</h2>
+        <div class="contact-methods">
+          <div class="contact-card">
+            <h3>📧 Email Support</h3>
+            <p>
+              For general inquiries and support requests:<br />
+              <a href="mailto:support@mindute.app">support@mindute.app</a>
+            </p>
+          </div>
+          <div class="contact-card">
+            <h3>🐛 Bug Reports</h3>
+            <p>
+              Found a bug? Let us know and we'll fix it ASAP:<br />
+              <a href="mailto:bugs@mindute.app">bugs@mindute.app</a>
+            </p>
+          </div>
+          <div class="contact-card">
+            <h3>💡 Feature Requests</h3>
+            <p>
+              Have an idea? We'd love to hear it:<br />
+              <a href="mailto:features@mindute.app">features@mindute.app</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="section">
+        <h2>❓ Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+          <h3>Is my data private?</h3>
+          <p>
+            Yes! Mindute AI runs 100% on your device. No messages, files, or
+            personal data are ever sent to any server. Everything stays on your
+            phone.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Do I need internet to use the app?</h3>
+          <p>
+            No. Once you download a model, everything works completely offline.
+            You only need internet for the initial model download.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I download a model?</h3>
+          <p>
+            Go to the Models screen, browse available models, and tap "Download"
+            on any model you want. Downloads typically take 2-10 minutes
+            depending on model size and your connection.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Why is the app using so much storage?</h3>
+          <p>
+            AI models are large files (0.7GB - 2.5GB each). You can manage your
+            models in the Models screen and delete any you're not using to free
+            up space.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Can I use my own models?</h3>
+          <p>
+            Currently, Mindute AI supports curated GGUF models from our
+            registry. We're working on adding custom model support in a future
+            update.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How do I backup my conversations?</h3>
+          <p>
+            Go to Settings → DATA → "Backup all conversations". You can share
+            your backup via email, AirDrop, or save it to your Files app.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="section">
+        <h2>🔗 Quick Links</h2>
+        <div class="links">
+          <a href="https://ai.mindute.app/privacy" class="link-btn"
+            >🔒 Privacy Policy</a
+          >
+          <a href="https://apps.apple.com/app/id6761441514" class="link-btn"
+            >⭐ Rate on App Store</a
+          >
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          © 2026 Mindute AI. All AI runs on your device. No data ever leaves
+          your phone.
+        </p>
+        <p style="margin-top: 8px">
+          <a href="https://ai.mindute.app/privacy">Privacy Policy</a> ·
+          <a href="mailto:support@mindute.app">Contact</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
